@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">NETFLIX</div>
+        <button class="signin-btn">Sign In</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <p>Starts at Rs 250. Cancel anytime.</p>
+            <div class="email-form">
+                <input type="email" placeholder="Email address">
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Now Section -->
+    <section class="trending">
+        <h2>Trending Now</h2>
+        <div class="filters">
+            <select id="category-filter">
+                <option value="movies">Movies</option>
+                <option value="tvshows">TV Shows</option>
+            </select>
+        </div>
+        <div id="trending-carousel" class="carousel">
+            <!-- Movie Cards will be inserted here dynamically -->
+        </div>
+    </section>
+
+    <!-- More Reasons to Join -->
+    <section class="reasons">
+        <h2>More Reasons to Join</h2>
+        <div class="reason-grid">
+            <div class="reason-card">
+                <h3>Enjoy on your TV</h3>
+                <p>Watch on Smart TVs, Playstation, Xbox, and more.</p>
+            </div>
+            <div class="reason-card">
+                <h3>Download your shows</h3>
+                <p>Save your favorites easily and watch offline.</p>
+            </div>
+            <div class="reason-card">
+                <h3>Watch everywhere</h3>
+                <p>Stream unlimited movies on any device.</p>
+            </div>
+            <div class="reason-card">
+                <h3>Create profiles for kids</h3>
+                <p>Send kids on adventures with their favorite characters.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question">
+                What is Netflix?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries, and more on thousands of internet-connected devices.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                How much does Netflix cost?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                monthly fee. Plans start from Rs 250.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Where can I watch?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web or on your
+                internet-connected device.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                How do I cancel?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                Netflix is flexible. There are no pesky contracts and no commitments. You can cancel your account online
+                in two clicks.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                What can I watch on Netflix?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+                originals, and more.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Is Netflix good for kids?
+                <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+                The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and movies.
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Subscription Section -->
+    <section class="subscribe">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-form">
+            <input type="email" placeholder="Email address">
+            <button>Get Started</button>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">FAQ</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Privacy</a>
+            <a href="#">Speed Test</a>
+            <a href="#">Help Center</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Legal Notices</a>
+            <a href="#">Account</a>
+            <a href="#">Media Center</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="language-selector">
+            <select>
+                <option value="en">English</option>
+                <option value="ur">Urdu</option>
+            </select>
+        </div>
+        <p>Netflix Pakistan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
